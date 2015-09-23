@@ -1,0 +1,44 @@
+#commentForm {
+    background:gainsboro;
+}
+
+#commentsView{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.colStyle{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.rowStyle{
+    flex-direction: row;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+}
+
+.picItemView{
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.item{
+    flex-grow: 1;
+    margin-top: 10px;
+}
+
+button{
+    align-self: flex-end;
+}

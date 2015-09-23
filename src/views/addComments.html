@@ -1,0 +1,6 @@
+<form name="commentForm" id="commentForm" class="colStyle"  >
+    <input placeholder="Email" ng-model="newComment.mail" type="email" class="item" required/>
+    <textarea placeholder="Message" ng-model="newComment.message" class="item" required ></textarea>
+    <button type="submit" class="btn btn-info item" onclick="add()">SUBMIT!</button>
+</form>
+<div ng-show="commentForm.$invalid && commentForm.$dirty">data is invalid</div>

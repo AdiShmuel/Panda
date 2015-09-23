@@ -1,0 +1,7 @@
+<ul ng-repeat="comment in commentsList | filter:search" class="rowStyle" >
+    <img class="picItemView" src="http://www.gravatar.com/avatar/{{ comment.mail | gravatar }}">
+    <div class="colStyle">
+        <h3>{{comment.mail}}</h3>
+        <h4 >{{comment.message}}</h4>
+    </div>
+</ul>
